@@ -872,6 +872,8 @@ kbd {
 .workspace-footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 16px;
   padding: 20px 2px 0;
   color: #52666f;
   font-size: 8px;
@@ -881,6 +883,14 @@ kbd {
   padding: 0 4px;
   color: var(--cyan);
   font-style: normal;
+}
+
+.workspace-credit {
+  margin-left: auto;
+  color: #8faab2;
+  font-family: var(--mono);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
 }
 
 .ambient-orbit {
@@ -1276,7 +1286,7 @@ kbd {
     font-size: 7px;
   }
 
-  .workspace-footer span:last-child {
+  .workspace-footer .workspace-credit {
     text-align: right;
   }
 
